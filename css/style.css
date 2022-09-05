@@ -47,7 +47,6 @@ ul {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #ececec;
-  width: 1600px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -141,12 +140,10 @@ ul {
   color: var(--additional-cl);
 }
 
-.contact-icon:hover,
-.contact-icon:focus {
+.contact-link:hover .contact-icon,
+.contact-link:focus .contact-icon{
   fill: var(--additional-cl);
 }
-
-
 
 
 .contact-link {
@@ -282,26 +279,17 @@ ul {
   margin-right: 30px;
 }
 
-.org-icon {
+.box-icon {
   display: flex;
-  justify-content: space-between;
-  margin: 0;
-  
-  margin-bottom: 30px;
-} 
-
-.org-item-icon {
-  display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   background-color: var(--portfolio-btn-cl);
   border-radius: 4px;
   gap: 30px;
   width: 270px;
   height: 120px;
+  margin-bottom: 30px;
 }
-
-
 
 /* .org-list-item::before {
   content: "";
@@ -394,7 +382,6 @@ ul {
 /* team-card */
 
 .team-section {
-  max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 94px;
@@ -404,7 +391,7 @@ ul {
 
 .team-suptitle {
   padding-top: 30px;
-  padding-bottom: 16px;
+  padding-bottom: 30px;
 }
 
 .team-title {
@@ -450,7 +437,7 @@ ul {
 
 .team-subtitle {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -464,7 +451,6 @@ ul {
   display: flex;
   gap: 10px;
   justify-content: center;
-  margin-bottom: 30px;
 }
 
 .link-icon {
@@ -494,7 +480,6 @@ ul {
 /* Постійні клієнти */
 
 .client {
-  max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 94px;
@@ -562,7 +547,6 @@ ul {
 }
 
 .footer {
-  max-width: 1600px;
   padding-top: 60px;
   padding-bottom: 60px;
   margin-left: auto;
@@ -642,11 +626,7 @@ ul {
 }
 
 .socials-conteiner {
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 206px;
 }
 
 .address {
